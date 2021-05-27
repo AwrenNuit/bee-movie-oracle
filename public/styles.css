@@ -1,0 +1,42 @@
+body {
+  align-items: center;
+  background-color: #1f131e;
+  display: flex;
+  font-family: sans-serif;
+  height: 100vh;
+  justify-content: center;
+  margin: 0;
+  padding: 0;
+}
+
+#oracle-vessel {
+  background-color: #ffedfe;
+  border-radius: 10px;
+  box-shadow: 0 0 10px #ffc0cb, 0 0 20px #ffc0cb, 0 0 40px #ffc0cb;
+  box-sizing: border-box;
+  max-width: 200px;
+  padding: 25px;
+  text-align: center;
+  width: max-content;
+}
+
+.oracle-prophecy {
+  color: #333;
+  font-size: 1rem;
+}
+
+@media (min-width: 545px) {
+  #oracle-vessel {
+    max-width: 435px;
+  }
+
+  .oracle-prophecy {
+    font-size: 1.6rem;
+  }
+}
+
+@media (min-width: 850px) {
+  #oracle-vessel {
+    max-width: 600px;
+  }
+}
